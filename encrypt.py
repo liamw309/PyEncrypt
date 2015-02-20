@@ -27,7 +27,7 @@ class encrypt(object):
 		key = k.key
 		self.new = self.initial.lower()
 		for x in range(0,35):
-			self.new.replace(alphabet[x],key[x])
+			self.new = self.new.replace(alphabet[x],key[x])
 
 a = encrypt()
 a.getstr()
